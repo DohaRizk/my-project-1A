@@ -1,0 +1,50 @@
+img
+{
+	float:right;
+	margin:60px;
+	margin-top: 0px;
+}
+form
+{
+	border: solid black 1px; 
+	margin-left: 20%;
+	margin-top: 5%;
+	width:30%;
+	padding:15px;
+        float:center;
+}
+input
+{
+	padding: 5px;
+	font-size: 15px;
+        float:right;
+        text-align: right;
+         
+}
+h2#signup_title
+{
+	text-align: center;
+}
+
+#submit_button
+{
+	font-size: 20px;
+	padding: 10px;
+	width:30%;
+	background-color: #ff9600;
+	border:solid #ff9600 1px;
+	color:white;
+text-align: center;
+
+}
+#submit_button:hover
+{
+	background-color: #ffab33;
+}
+div
+{
+	border: solid black 5px; 
+	margin:60px;
+	width:40%;
+	padding:15px;
+}

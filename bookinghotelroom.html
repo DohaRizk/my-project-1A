@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Booking Hotel Room</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<img src = "ellaa-hotels.jpg" width = "630" height = "527">
+	<form class  action = "next.html" method = "post">
+		<h2>Hotel Booking</h2>
+	    <hr/>
+			<span><input type = "text" placeholder = "FName" required></span>
+			<span><input type = "text" placeholder = "Last name" required></span><br/><br/>
+			<input type = "email" placeholder = "Email" required><br/><br/>
+			<input type = "tel" placeholder = "Tel no(optional)"><br/><br/>
+			<input type = "tel" placeholder = "Nationality" required><br/><br/>
+			<input type = "tel" placeholder = "Hotel name" required><br/><br/>
+			<span id = "date_title1">Check-in date:<span>
+			<span id = "date_title2">Check-out date:<span>
+			<br/>
+			<span id = "date"><input class = "date" type = "date" required></span>
+			<span id = "date"><input class = "date" type = "date" required></span>
+			<br/><br/>
+			Room type:<br/>
+			<input type = "radio" name = "room_type" value = "single">Single
+			<input type = "radio" name = "room_type" value = "double">Double
+			<input type = "radio" name = "room_type" value = "tripple">Tripple
+			<input type = "radio" name = "room_type" value = "sweet">Sweet
+			<br/><br/>
+			<input id = "submit_button" type = "submit" value = "submit">
+	</form>
+</body>
+</html>
